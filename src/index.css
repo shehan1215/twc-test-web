@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "Fbold";
+    src: local("futurab"),
+    url('./assets/fonts/futurab.ttf') format("truetype");
+}
+@font-face{
+    font-family: "Fmedium";
+    src: local("futuram"),
+    url('./assets/fonts/futuram.ttf') format("truetype");
+}

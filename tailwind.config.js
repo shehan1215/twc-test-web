@@ -5,6 +5,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        primaryBold:['Fbold'],
+        primaryMedium:['Fmedium'],
+      }
     },
   },
   plugins: [],
