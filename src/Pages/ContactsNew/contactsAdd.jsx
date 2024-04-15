@@ -20,13 +20,13 @@ function contactsAdd() {
               <input type="number" placeholder='phone number' class="mt-4 block w-[70%] px-5 py-2 border rounded-full focus:outline-none"/>
           </div>
           <div>
-              <div class="flex items-center mt-4 gap-3">
-                      gender<input type="radio" name="gender" value="male" class="text-indigo-600 border-gray-300"/>
-                      <span class="ml-2">Male</span>
-                  <label class="inline-flex items-center">
-                      <input type="radio" name="gender" value="female" class="text-indigo-600 border-gray-300"/>
+              <div class="flex items-center mt-4 gap-3 text-[#FFFFFF] text-[1.5rem]">
+                      <span class="mr-[10%]">gender</span>
+                      <input type="radio" name="gender" value="male" class=" border-transparent"/>
+                      <span class="ml-1 mr-[10%]">Male</span>
+                      <input type="radio" name="gender" value="female" class=" border-gray-300"/>
                       <span class="ml-2">Female</span>
-                  </label>
+                  
               </div>
           </div>   
       </form>
@@ -34,7 +34,7 @@ function contactsAdd() {
   <button id='' class="mt-[4%] ml-[10%] bg-transparent text-[#FFFFFF] font-primaryMedium hover:text-white py-1 px-9 border border-[#FFFFFF] rounded-full text-[25px]">add your first contact</button>
       <div class="flex justify-end mr-[5%] mt-[2%]">
         <img src="../src/assets/logOut.png" alt="" class=" cursor-pointer"/>
-        <a href="" class="flex items-center pl-4 font-primaryMedium text-[1.5rem] text-[#FFFFFF] underline">logout</a>
+        <a href="" class="flex items-center pl-4 font-primaryMedium text-[1rem] text-[#FFFFFF] underline">logout</a>
       </div>
     </div>
   </div>
