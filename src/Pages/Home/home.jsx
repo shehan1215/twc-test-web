@@ -16,8 +16,6 @@ function home() {
           <a href="" class="flex items-center pl-4 font-primaryMedium text-[1.5rem] text-[#FFFFFF] underline">logout</a>
         </div>
       </div>
-
-      
     </div>
   )
 }

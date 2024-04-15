@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from './Pages/Home/home';
 import Register from './Pages/Register/register'
 import Login from './Pages/Login/login'
-import ContactsAdd from './Pages/ContactsNew/contactsAdd'
+import ContactsAdd from './Pages/ContactsNew/contactsAdd.jsx'
 import Contacts from './Pages/Contacts/contacts'
 
 function App() {
