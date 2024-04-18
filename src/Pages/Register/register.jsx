@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function register() {
   return (
@@ -15,7 +16,7 @@ function register() {
       </form> 
       <br/>
       <div class="my-8">
-      <a href="" class="font-primaryMedium text-[20px] text-[#FFFFFF] underline">&lt; Back to login</a>
+      <Link to={'/login'} class="font-primaryMedium text-[20px] text-[#FFFFFF] underline">&lt; Back to login</Link>
       </div>
       </div>
     </div>

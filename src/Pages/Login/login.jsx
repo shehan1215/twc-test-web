@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const login = () => {
   return (
@@ -12,7 +13,8 @@ const login = () => {
           <input type="email" placeholder='e-mail' class="rounded-full pr-5 pl-5 w-[30vw] text-[1.5rem] text-[#083F46]" /><br /><br />
           <input type="password" placeholder='password' class="rounded-full pr-5 pl-5 w-[30vw] text-[1.5rem] text-[#083F46]" />
           <br/><br/>
-          <button class="mt-3 bg-transparent text-[#FFFFFF] font-primaryMedium hover:text-white py-1 px-9 border border-[#FFFFFF] rounded-full text-[25px]">login</button> <span class="font-primaryMedium text-[20px] text-[#FFFFFF]"> or </span><a href="" class="font-primaryMedium text-[20px] text-[#FFFFFF] underline">Click here to Register</a>
+          <button class="mt-3 bg-transparent text-[#FFFFFF] font-primaryMedium py-1 px-9 border border-[#FFFFFF] rounded-full text-[25px]">login</button> <span class="font-primaryMedium text-[20px] text-[#FFFFFF]"> or </span>
+          <Link to={'/register'} class="font-primaryMedium text-[20px] text-[#FFFFFF] underline">Click here to Register</Link>
         </form> 
         </div>
       </div>

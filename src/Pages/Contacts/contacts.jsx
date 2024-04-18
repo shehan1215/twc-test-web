@@ -11,7 +11,7 @@ function contacts() {
           <h1 class="font-primaryBold text-[2.5rem] text-[#FFFFFF] mt-[2%]">Contact</h1>
           <button class="mt-[4%] mr-[10%] h-[6vh] bg-transparent text-[#FFFFFF] font-primaryMedium hover:text-white px-9 border border-[#FFFFFF] rounded-full text-[20px]">add new contact</button>
         </div> 
-            <div class="overflow-x-auto rounded-[20px] mt-[10px]">
+            <div class="overflow-x-auto overflow-y-scroll rounded-[20px] mt-[10px]">
               <table class="w-[90%] text-left bg-[#FFFFFF] text-[#083F46]">
                   <thead class="font-primaryBold text-[#083F46] bg-[#FFFFFF]">
                       <tr>
